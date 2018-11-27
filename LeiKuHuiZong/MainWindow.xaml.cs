@@ -20,6 +20,9 @@ namespace LeiKuHuiZong
     /// </summary>
     public partial class MainWindow : Window
     {
+        /// <summary>
+        /// 注释
+        /// </summary>
         public MainWindow()
         {
             InitializeComponent();
