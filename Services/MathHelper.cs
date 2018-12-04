@@ -151,7 +151,7 @@ namespace Services
             return Convert.ToInt32(hex, 16);
         }
 
-        public byte[] StrToByte(string str)
+        public static byte[] StrToByte(string str)
         {
             return System.Text.Encoding.Default.GetBytes(str);
         }
